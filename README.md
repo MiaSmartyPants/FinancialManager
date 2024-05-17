@@ -56,10 +56,3 @@ npm start
    ```
 
 Access the application in your web browser at `http://localhost:3000`.
-
-## Contributing
-Contributions are welcome! Feel free to submit bug reports, feature requests, or pull requests.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-```
