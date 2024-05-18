@@ -83,20 +83,21 @@ const Reports = () => {
     return (
         <div className="reports-container">
             <h2>Financial Reports</h2>
+            <h2>*Please Refresh* </h2>
             <div className="report">
-                <h2>Total Spent</h2>
+                <h3>Total Spent</h3>
                 <p>${insights.totalSpent.toFixed(2)}</p>
             </div>
             <div className="report">
-                <h2>Total Income</h2>
+                <h3>Total Income</h3>
                 <p>${insights.totalIncome.toFixed(2)}</p>
             </div>
             <div className="report">
-                <h2>Savings Rate</h2>
+                <h3>Savings Rate</h3>
                 <p>{insights.savingsRate.toFixed(2)}%</p>
             </div>
             <div className="report">
-                <h2>Goals Progress</h2>
+                <h3>Goals Progress</h3>
                 {insights.goalsProgress.map((goal, index) => (
                     <div key={index}>
                         <p>{goal.name}: {goal.progress.toFixed(2)}%</p>
