@@ -2,6 +2,7 @@
 A personal finance management application that will allow users to track their income, expenses, savings, providing insights into their financial health, and helping them make informed financial decisions.
 
 ## Features
+<br>
 - Third-party API jokes about money!
 <br>
 - User Registration and Login: Allow users to sign up and log in to their accounts.
