@@ -3,6 +3,7 @@
 import React from 'react';
 import { useAuth0 } from '@auth0/auth0-react';
 import '../App.css';
+import FinanceJokes from './FinanceJokes';
 
 const UserInfoCard = () => {
   const { user, isAuthenticated, isLoading } = useAuth0();
@@ -47,6 +48,8 @@ const UserInfoCard = () => {
           <h2 className="user-info-card-title">{user.name}</h2>
           <p className="user-info-card-email">{user.email}</p>
         </div>
+        
+        <FinanceJokes />
       </div>
     )
   );
